@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cmath>
+
+
+using namespace std; 
+
+int main ()
+{
+	setlocale (LC_ALL,"rus");
+	 
+	float x;
+
+	cout <<"Ââåäèòå ÷èñëî x: ";
+	cin >> x;
+	
+	if (x>=1){
+		
+		cout<<"error";
+	}
+	else
+	{
+	   
+	   cout<<"ok";
+	   
+	}
+	cin.get();
+	return 0;
+
+}
